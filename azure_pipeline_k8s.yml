@@ -1,0 +1,80 @@
+trigger:
+- main # Cambia esto al nombre de la rama en la que quieres que se desencadene el pipeline
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  pythonVersion: '3.9'
+  dockerRegistryServiceConnection: '<YOUR_AZURE_CONTAINER_REGISTRY_CONNECTION>'
+  imageRepository: '<YOUR_IMAGE_REPOSITORY>'
+  containerRegistry: '<YOUR_AZURE_CONTAINER_REGISTRY>'
+  kubernetesServiceConnection: '<YOUR_KUBERNETES_SERVICE_CONNECTION>'
+  kubernetesNamespace: 'tech.prod'
+
+stages:
+- stage: Build
+  displayName: 'Build Stage'
+  jobs:
+  - job: Build
+    displayName: 'Build Job'
+    steps:
+    - task: UsePythonVersion@0
+      inputs:
+        versionSpec: '$(pythonVersion)'
+        addToPath: true
+
+    - script: |
+        python -m venv venv
+        source venv/bin/activate
+        pip install --upgrade pip
+        pip install -r requirements.txt
+      displayName: 'Install dependencies'
+
+    - script: |
+        source venv/bin/activate
+        python -m unittest discover -s tests
+      displayName: 'Run unit tests'
+
+    - task: Docker@2
+      inputs:
+        command: 'buildAndPush'
+        repository: '$(containerRegistry)/$(imageRepository)'
+        dockerfile: '**/Dockerfile'
+        tags: |
+          latest
+        containerRegistry: '$(dockerRegistryServiceConnection)'
+      displayName: 'Build and push Docker image'
+
+    - task: PublishBuildArtifacts@1
+      inputs:
+        PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+        ArtifactName: 'python-microservice'
+        publishLocation: 'Container'
+      displayName: 'Publish artifact'
+
+- stage: Deploy
+  displayName: 'Deploy Stage'
+  dependsOn: Build
+  jobs:
+  - deployment: Deploy
+    displayName: 'Deploy to AKS'
+    environment: 'aks'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - task: Kubernetes@1
+            inputs:
+              connectionType: 'Azure Resource Manager'
+              azureSubscriptionEndpoint: '$(kubernetesServiceConnection)'
+              azureResourceGroup: '<YOUR_RESOURCE_GROUP>'
+              kubernetesCluster: '<YOUR_AKS_CLUSTER>'
+              namespace: '$(kubernetesNamespace)'
+              command: 'apply'
+              useConfigurationFile: true
+              configuration: '$(Pipeline.Workspace)/manifests/deployment.yaml'
+              secretType: 'dockerRegistry'
+              containerRegistryType: 'Azure Container Registry'
+              azureSubscriptionEndpointForSecrets: '$(dockerRegistryServiceConnection)'
+              azureContainerRegistry: '$(containerRegistry)'

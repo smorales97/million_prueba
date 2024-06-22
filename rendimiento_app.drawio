@@ -1,0 +1,153 @@
+<mxfile host="app.diagrams.net" modified="2024-06-22T22:51:06.383Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mq8URYpQ3GHIHnHCF7ec" version="24.6.2" type="device">
+  <diagram name="Page-1" id="lWM4yKuUPmaHFWtL4cqS">
+    <mxGraphModel dx="1434" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YDSI0b_-pagneDCMfer2-320" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-1" target="YDSI0b_-pagneDCMfer2-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-319" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-303" target="YDSI0b_-pagneDCMfer2-305">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-303" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="465" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-324" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-304">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="87" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="331" y="110" />
+              <mxPoint x="87" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-330" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-304" target="YDSI0b_-pagneDCMfer2-306">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="250" />
+              <mxPoint x="480" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-304" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="210" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-356" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-305" target="YDSI0b_-pagneDCMfer2-307">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="598" />
+              <mxPoint x="580" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-358" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-305" target="YDSI0b_-pagneDCMfer2-303">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="340" />
+              <mxPoint x="80" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-305" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="465" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-306" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="155" width="80" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-355" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-307" target="YDSI0b_-pagneDCMfer2-305">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="400" />
+              <mxPoint x="335" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-307" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="407.5" width="80" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-308" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="115" width="100" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-310" value="Cliente A" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="225" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-311" value="Cliente A" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-312" value=".Cloudflare Worker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-313" value=".Cloudflare Worker" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="275" y="225" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-314" value="Cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-315" value="Cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-316" value="CloudFlare e imagen redimencionada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="147.5" width="60" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-317" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="437.5" width="100" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-318" value="CloudFlare e imagen redimencionada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="470" width="60" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-331" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="225" as="sourcePoint" />
+            <mxPoint x="540" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="225" />
+              <mxPoint x="480" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-336" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YDSI0b_-pagneDCMfer2-304" target="YDSI0b_-pagneDCMfer2-308">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="210" as="sourcePoint" />
+            <mxPoint x="450" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="378" y="40" />
+              <mxPoint x="580" y="40" />
+              <mxPoint x="780" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-344" value="1. imagen solicitada por el usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-346" value="1. imagen solicitada por el usuario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-347" value="5. envia imagen al cliente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-349" value="2. El worker comprueba si la imagen está en la caché" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="295" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-350" value="3.&amp;nbsp;si la imagen no está en la caché la redimensionamos" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-352" value="4.almacenamos la imagen en caché para futuras peticiones" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-353" value="2. El worker comprueba si la imagen está en la caché" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-357" value="3. recuperar imagen de la caché si existe" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YDSI0b_-pagneDCMfer2-359" value="4. envia imagen al cliente" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

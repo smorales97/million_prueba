@@ -11,8 +11,8 @@ spec:
   ingress:
   - from:
     - ipBlock:
-        cidr: 10.0.0.0/16 # Asumiendo que la red interna "prod" es 10.0.0.0/16
+        cidr: 10.0.0.0/16 # Asumiendo que esta seria la red interna "prod" es 10.0.0.0/16
   egress:
   - to:
     - ipBlock:
-        cidr: 10.0.0.0/16 # Asumiendo que la red interna "prod" es 10.0.0.0/16
+        cidr: 10.0.0.0/16 # Asumiendo que esta seria la red interna "prod" es 10.0.0.0/16
